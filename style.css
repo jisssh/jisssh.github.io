@@ -1,0 +1,36 @@
+a {
+    color:red;
+}   
+.bio-box a{
+    color: green;
+}
+#exec-bio{
+    background-color: lightgray;
+}
+/* id 는 되도록이면 안쓰는 걸로! */
+.bio-box{
+    border:1px solid black;
+}
+#link-google{
+    background-color: orange;
+}
+body .box{
+    background-color: aqua;
+}
+/* 같으면 아래것이 우선순위를 가진다! */
+.box{
+    background-color: darkolivegreen;
+}
+/* 아무 a tag 를 잡아서 아무 id 를 주고 id로 selsect
+ 하여 배경색 오렌지를 주세요 */
+/* 모든 bio-box 클래스를 가진 요소들에
+ 추가로 아무  class 를 주고, 
+ class로 select 하여 배경색 azure를 적용하지. */
+ .alert {
+     background-color: purple;
+ }
+ /* bad example */
+ body div#exec-bio.bio-box{
+     color: green;
+ }
+ #flick0 > li.item5 > div.obj_off.tab4 > a > img
